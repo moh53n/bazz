@@ -8,10 +8,10 @@ I've reverse-engineered CafeBazaar's API and developed these scripts between 201
 doc: (SOON) Documents about the Reverse engineering process and the API.   
 get.py: A simple script to download the given package name from the Cafebazaar.   
 app_list.py: A simple script to get the package names of all of the apps from their website.   
-sacn.py: (SOON) A script to send the given apps to an online malware scanner and receive the result.   
+legacy_scan.py: A -legacy- script to send the given apps to an online malware scanner and receive the result.   
 ## Notes
 Some of the files are modified to be suitable for publishing.   
-sacn.py: (SOON) ...   
+legacy_scan.py: Some bypass methods for rate-limit and some methods for changing fingerprint are removed from the published file. Also, This file is the legacy version (First run) of my scanner (when I didn't know ORMs exist :D)    
 ## FAQ
 ### What is CafeBazaar?
 It's the biggest Android market in Iran.
